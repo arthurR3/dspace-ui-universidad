@@ -4,17 +4,22 @@
 
   @include media-breakpoint-up(md) {
     --ds-header-logo-height: 40px;
-    --ds-header-height: 80px;
+    --ds-header-height: 120px;
   }
   @include media-breakpoint-down(sm) {
     --ds-header-logo-height: 50px;
     --ds-header-height: 90px;
   }
 
-  --ds-banner-text-background: #fff;
+  --ds-banner-text-background: rgba(0, 0, 0, 0.58);
   --ds-banner-background-gradient-width: 300px;
 
+  /* EDTIADOS PARA LA INSTITUCION UTHH JULIO 2026 (2026-2)*/
+
+  --ds-header-background-color: #{$primary-ui};
+  --ds-header-logo-height: 70px;
   --ds-header-navbar-border-bottom-height: 5px;
+  --ds-navbar-background-color: #{$secondary-ui};
 
   /* set the next two properties as `--ds-header-navbar-border-bottom-*`
   in order to keep the bottom border of the header when navbar is expanded */

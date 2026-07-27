@@ -1,6 +1,8 @@
 // import { COMPONENTS as CUSTOM_THEME_EAGER_COMPONENTS } from './custom/eager-theme-components';
-import { COMPONENTS as DSPACE_THEME_EAGER_COMPONENTS } from './dspace/eager-theme-components';
+//import { COMPONENTS as DSPACE_THEME_EAGER_COMPONENTS } from './dspace/eager-theme-components';
 
+/* CAMBIO PARA EL REPO INSITUCIONAL */
+import { COMPONENTS as DSPACE_THEME_EAGER_COMPONENTS } from './dspace-uthh/eager-theme-components';
 /**
  * This list bundles the eager components from all the enable themes.
  * Eager components are components that are present on every page (to speed up initial loading)

@@ -5759,7 +5759,7 @@
   "menu.section.browse_global_by_title": "Por titulo",
 
   // "menu.section.browse_global_communities_and_collections": "Communities & Collections",
-  "menu.section.browse_global_communities_and_collections": "Comunidades",
+  "menu.section.browse_global_communities_and_collections": "Sitios UTHH",
 
   // "menu.section.browse_global_geospatial_map": "By Geolocation (Map)",
   "menu.section.browse_global_geospatial_map": "Por geolocalización (Mapa)",
@@ -6116,8 +6116,8 @@
   // "notification.suggestion.please": "Please",
   "notification.suggestion.please": "Por favor",
 
-  // "nav.browse.header": "All of DSpace",
-  "nav.browse.header": "Todo DSpace",
+  // "nav.browse.header": "Biblioteca UTHH",
+  "nav.browse.header": "Biblioteca UTHH",
 
   // "nav.community-browse.header": "By Community",
   "nav.community-browse.header": "Por comunidad",
@@ -7270,10 +7270,10 @@
   "repository.image.logo": "Logotipo del repositorio",
 
   // "repository.title": "DSpace Repository",
-  "repository.title": "Repositorio DSpace",
+  "repository.title": "Repositorio UTHH",
 
   // "repository.title.prefix": "DSpace Repository :: ",
-  "repository.title.prefix": "Repositorio DSpace :: ",
+  "repository.title.prefix": "Repositorio UTHH :: ",
 
   // "resource-policies.add.button": "Add",
   "resource-policies.add.button": "Agregar",

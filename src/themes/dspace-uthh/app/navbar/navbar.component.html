@@ -1,0 +1,31 @@
+<nav id="main-site-navigation" class="navbar-nav h-100"
+  [ngClass]="(isMobile$ | async) ? 'navbar-nav-mobile' : 'navbar-nav-desktop'" aria-label="Navegación secundaria">
+  <div class="navbar-nav-content">
+    <ul class="navbar-links" role="menubar">
+      <li role="none">
+        <a role="menuitem" class="navbar-link" href="https://www.uthh.edu.mx/" target="_blank"
+          rel="noopener noreferrer">
+          Sitios UTHH
+        </a>
+      </li>
+
+      <li role="none">
+        <a role="menuitem" class="navbar-link" href="/biblioteca">
+          Biblioteca UTHH
+        </a>
+      </li>
+
+      <li role="none">
+        <a role="menuitem" class="navbar-link" href="/nuevas-adquisiciones">
+          Nuevas adquisiciones
+      </a>
+      </li>
+    </ul>
+    <div class="navbar-actions">
+      <a href="/login" class="btn btn-outline-light btn-md">
+        Ingresar
+      </a>
+    </div>
+
+  </div>
+</nav>

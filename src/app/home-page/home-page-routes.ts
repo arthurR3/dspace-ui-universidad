@@ -14,7 +14,7 @@ export const ROUTES: Route[] = [
       showSocialButtons: true,
       menu: {
         public: [{
-          id: 'statistics_site',
+          /* id: 'statistics_site',
           active: true,
           visible: true,
           index: 2,
@@ -22,7 +22,7 @@ export const ROUTES: Route[] = [
             type: MenuItemType.LINK,
             text: 'menu.section.statistics',
             link: 'statistics',
-          } as LinkMenuItemModel,
+          } as LinkMenuItemModel, */
         }],
       },
     },

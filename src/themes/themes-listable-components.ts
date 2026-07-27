@@ -1,5 +1,5 @@
 // import { LISTABLE_COMPONENTS as CUSTOM_LISTABLE_COMPONENTS } from './custom/lazy-listable-components';
-import { LISTABLE_COMPONENTS as DSPACE_LISTABLE_COMPONENTS } from './dspace/lazy-listable-components';
+import { LISTABLE_COMPONENTS as DSPACE_LISTABLE_COMPONENTS } from './dspace-uthh/lazy-listable-components';
 
 /**
  * This list bundles all the listable components from all the enabled themes.

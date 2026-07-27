@@ -1,0 +1,11 @@
+<div class="search-container">
+    <div class="input-group">
+        <input type="text" [(ngModel)]="query" name="query" class="form-control" [attr.aria-label]="searchPlaceholder"
+            [placeholder]="searchPlaceholder">
+
+        <button type="submit" class="btn  ">
+            <i class="fas fa-search"></i>
+            {{ ('search.form.search' | translate) }}
+        </button>
+    </div>
+</div>
