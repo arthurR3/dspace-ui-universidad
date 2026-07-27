@@ -1,11 +1,12 @@
-<div class="search-container">
+<form class="search-container" #form="ngForm" (ngSubmit)="onSubmit(form.value)" action="/search">
     <div class="input-group">
-        <input type="text" [(ngModel)]="query" name="query" class="form-control" [attr.aria-label]="searchPlaceholder"
-            [placeholder]="searchPlaceholder">
+        <input type="text" [(ngModel)]="query" name="query" class="form-control search-input" attr.aria-label="Buscar por título, autor, palabras clave..."
+            placeholder="Buscar por título, autor, palabras clave...">
 
-        <button type="submit" class="btn  ">
-            <i class="fas fa-search"></i>
+        <button type="submit" class="btn search-button">
+            
+            <!-- <i class="fas fa-search align-items-center"></i> -->
             {{ ('search.form.search' | translate) }}
         </button>
     </div>
-</div>
+</form>
