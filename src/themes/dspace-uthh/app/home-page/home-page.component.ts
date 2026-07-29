@@ -15,6 +15,8 @@ import { SuggestionsPopupComponent } from '../../../../app/notifications/suggest
 import { ThemedConfigurationSearchPageComponent } from '../../../../app/search-page/themed-configuration-search-page.component';
 import { ThemedSearchFormComponent } from '../../../../app/shared/search-form/themed-search-form.component';
 
+import { CareersComponent } from '../shared/careers/careers.component';
+
 @Component({
   selector: 'ds-themed-home-page',
   styleUrls: ['./home-page.component.scss'],
@@ -33,6 +35,8 @@ import { ThemedSearchFormComponent } from '../../../../app/shared/search-form/th
     ThemedSearchFormComponent,
     ThemedTopLevelCommunityListComponent,
     TranslateModule,
+
+    CareersComponent
   ],
 })
 export class HomePageComponent extends BaseComponent {

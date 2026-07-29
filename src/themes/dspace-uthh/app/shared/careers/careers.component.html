@@ -1,0 +1,14 @@
+<section class="knowledge-section">
+    <div class="knowledge-section-content">
+        <div class="knowledge-section-header">
+            <h2>Explora por área de conocimientos</h2>
+            <p>Encuentra libros, tesís o revistas clasificadas por carreras</p>
+        </div>
+
+       <div class="knowledge-card-list">
+          @for (item of careers; track item.id) {
+            <ds-themed-careers-card [careers]="item" />
+            }
+        </div>
+    </div>
+</section>

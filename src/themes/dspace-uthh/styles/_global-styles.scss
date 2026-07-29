@@ -3,8 +3,12 @@
 // imports the base global style
 @import '../../../styles/_global-styles.scss';
 
+.my-cs {
+  background-color: var(--ds-background-secondary-color) !important;
+}
+
 .facet-filter, .setting-option, .advanced-search {
-  background-color: var(--bs-light);
+  background-color: var(--ds-background-secondary-color);
   border-radius: var(--bs-border-radius);
 
   &.p-3 {
