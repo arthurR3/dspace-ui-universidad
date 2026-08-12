@@ -4,10 +4,13 @@
 @import '../../../styles/_global-styles.scss';
 
 .my-cs {
-  background-color: var(--ds-background-secondary-color) !important;
+  background-color: color-mix(in srgb, var(--ds-background-secondary-color) 73%, transparent);
+  margin-bottom: 0% !important;
 }
 
-.facet-filter, .setting-option, .advanced-search {
+.facet-filter,
+.setting-option,
+.advanced-search {
   background-color: var(--ds-background-secondary-color);
   border-radius: var(--bs-border-radius);
 
@@ -20,8 +23,9 @@
   .bg-secondary {
     background-color: var(--bs-primary);
   }
-  
-  h4, .h4 {
+
+  h4,
+  .h4 {
     font-size: 1.1rem
   }
 }
