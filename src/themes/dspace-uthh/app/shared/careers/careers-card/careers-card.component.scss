@@ -1,0 +1,87 @@
+
+
+.knowledge-card {
+  flex: 0 0 auto;
+  width: 220px;
+  min-height: 316px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  text-align: center;
+  padding: 1.8rem;
+  border-radius: 1rem;
+  background-color: #fff;
+  color: #ffffff;
+
+  transition:
+    background-color .25s,
+    color .25s,
+    transform .25s,
+    box-shadow .25s;
+
+  &:hover {
+    
+      background: rgba(3, 154, 64, .95);
+      transform: translateY(-5px);
+      box-shadow: 0 12px 30px rgb(0 0 0 /.12);
+
+    .title {
+      color: white;
+    }
+
+    .knowledge-button {
+      background: var(--ds-background-primary-color);
+    }
+    .image-container {
+      transform: translateY(-1px);
+      box-shadow: 0 12px 30px rgb(0 0 0 /.12);
+    }
+  }
+
+
+  .image-container {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+
+    .image-area {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .knowledge-button {
+    margin-top: auto;
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border: 0;
+    border-radius: 0.5rem;
+    background-color: #039A40;
+    color: #fff;
+    transition:
+      background-color 0.2s ease,
+      color 0.2s ease;
+  }
+
+  .title {
+    margin: 0;
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1.35;
+    text-align: center;
+    color: black;
+  }
+}

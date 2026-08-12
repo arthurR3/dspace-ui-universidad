@@ -1,0 +1,40 @@
+.knowledge-section {
+    width: auto;
+    /* max-width: 1350px; */
+    margin: 20px 20px;
+    padding: 2.5rem 1.5rem;
+    background-color: #f8f9fa;
+    border-radius: 12px;
+    text-align: center;
+    flex-direction: row;
+    row-gap: 1rem;
+
+    &-header {
+        h2 {
+            font-family: 'Lemon', serif !important;
+            font-weight: bold;
+            font-size: 2rem;
+            margin: 0;
+            text-align: center;
+            color: var(--ds-background-primary-color);
+            padding: 0.5rem;
+            margin-bottom: 0% !important;
+        }
+
+        p {
+            font-size: 1.5rem;
+            color: black;
+            font-weight: 500;
+            margin: 0;
+        }
+
+    }
+}
+
+
+.knowledge-card-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 0.5rem;
+  padding-top: 3rem;
+}
