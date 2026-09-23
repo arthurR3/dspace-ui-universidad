@@ -1,0 +1,12 @@
+:host ::ng-deep #search-form button {
+  background-color: var(--ds-background-secondary-dark-color);
+  border-radius: 16px;
+
+}
+
+:host ::ng-deep #search-form input {
+  border-radius: 4px;
+
+  box-shadow: 0 0 0 0.2rem var(--ds-background-light-color);
+  
+}

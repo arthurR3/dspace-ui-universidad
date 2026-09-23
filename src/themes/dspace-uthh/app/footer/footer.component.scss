@@ -1,0 +1,42 @@
+ /* ==========================================================================
+   Tema personalizado para el Departamento de Biblioteca UTHH
+   Desarrollador: ING. José Arturo Hernández Campos
+   Última modificación: Agosto 2026
+   ========================================================================== */
+
+ .footer-wrapper {
+     width: 100%;
+ }
+
+
+ .bg-footer-container {
+     background-color: #A02142 !important;
+     &h6 {
+        color: #BC955B;
+     }
+ }
+
+ .bg-sub-footer {
+     background-color: #1B1A3D;
+     color: #ffffff;
+ }
+
+ .footer-img {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    object-fit: cover;
+    padding: 0.5rem;
+    flex-shrink: 0;
+    transition: transform 0.3s ease-in-out;
+ }
+
+
+ .sub-footer a {
+     color: #ffffff;
+     text-decoration: underline;
+ }
+
+ .sub-footer a:hover {
+     color: #d4d4d4;
+ }

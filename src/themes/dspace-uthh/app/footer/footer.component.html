@@ -1,0 +1,84 @@
+<!-- Footer -->
+<footer class="text-center bg-footer-container text-lg-start text-light">
+
+    <section class="p-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-6 mb-4 mb-lg-0">
+                    <div class="d-flex align-items-center mb-3">
+                        <img src="assets/dspace-uthh/images/logo-uthh.png" class="footer-img" alt="Logo UTHH" />
+                        <div class="ms-2">
+                            <h6 class="fw-bold mb-1">{{ footerData.organization.acronym }}</h6>
+                            <p class="mb-0">
+                                {{ footerData.organization.name }}
+                            </p>
+                        </div>
+                    </div>
+                    <p class="mb-0 fw-bold line-height-1 uppercase">
+                        {{ footerData.organization.departament }}
+                    </p>
+                    <h6 class="fw-semibold mb-3">
+                        {{ footerData.organization.library }}
+                    </h6>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 mb-4 mb-lg-0">
+                    <h6 class="fw-bold mb-3">
+                        Contacto Oficial
+                    </h6>
+                    <p class="mb-0">
+                        {{ footerData.contact.address }}
+                    </p>
+                    <p class="mb-2">
+                        <i class="fas fa-envelope me-3"></i>
+                        {{ footerData.contact.email }}
+                    </p>
+
+                    <p class="mb-2">
+                        <i class="fas fa-phone me-1"></i>
+                        {{ footerData.contact.phone }}
+                    </p>
+                    <p class="mb-2">
+                        <i class="fas fa-envelope m-1"></i>
+                        {{ footerData.contact.website }}
+                    </p>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 text-end">
+                    <h4 class="fw-bold mb-3">
+                        Enlaces de Interés
+                    </h4>
+
+                    @for (link of footerData.interestLinks; track link.url) {
+                    <p class="mb-2">
+                        <a href="{{ link.url }}" target="_blank" class="text-decoration-none text-light"
+                            rel="noopener noreferrer">
+                            {{ link.label }}
+                        </a>
+                    </p>
+
+                    }
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="bg-sub-footer py-2">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 col-md-3 text-center text-md-start">
+                    © 2026 Derechos Reservaxdos
+                </div>
+                <div class="col-12 col-md-5 text-center">
+                    {{ footerData.organization.departament}} - {{ footerData.organization.acronym }}
+                </div>
+
+                <div class="col-12 col-md-4 text-center text-md-end">
+                    Desarrollado con
+                    <a href="https://dspace.org" target="_blank" rel="noopener noreferrer">
+                        DSpace
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</footer>
