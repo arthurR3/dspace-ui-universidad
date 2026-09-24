@@ -151,7 +151,8 @@
               "vendor": false
             },
             "assets": [
-              "src/assets"
+              "src/assets",
+              "src/themes/dspace-uthh/assets"
             ],
             "styles": [
               {

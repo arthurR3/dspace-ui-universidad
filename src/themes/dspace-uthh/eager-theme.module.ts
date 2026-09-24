@@ -13,7 +13,7 @@ import { SearchFiltersComponent } from './app/shared/search/search-filters/searc
 import { SearchSidebarComponent } from './app/shared/search/search-sidebar/search-sidebar.component';
 import { HomeNewsComponent } from './app/home-page/home-news/home-news.component';
 import { NavbarComponent } from './app/navbar/navbar.component';
- 
+ import { SearchFormComponent } from './app/shared/search-form/search-form.component';
 
  /**
   * Add components that use a custom decorator to ENTRY_COMPONENTS as well as DECLARATIONS.
@@ -30,6 +30,7 @@ import { NavbarComponent } from './app/navbar/navbar.component';
    SearchPageComponent,
    SearchSidebarComponent,
    SearchComponent,
+   SearchFormComponent,
    HomeNewsComponent,
    NavbarComponent,
  ];
