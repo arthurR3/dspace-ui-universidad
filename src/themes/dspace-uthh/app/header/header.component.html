@@ -1,5 +1,5 @@
 <header id="main-site-header">
-  <div class="container h-100 d-flex flex-row align-items-center justify-content-between gapx-3 gapy-2"
+  <div class="container h-100 d-flex flex-row align-items-center justify-content-between column-gap-3 row-gap-2"
     id="main-site-header-container">
     <!-- Logo and navbar wrapper -->
     <div id="header-left" [attr.role]="(isMobile$ | async) ? 'navigation' : 'presentation'"
@@ -10,7 +10,7 @@
         <img id="header-logo" src="assets/images/logo-uthh.png" [attr.alt]="'menu.header.image.logo' | translate" />
       </a>
 
-      <div class="flex-grow-1 d-flex flex-column align-items-center gap-2">
+      <div class="flex-grow-1 d-flex flex-column align-items-center justify-content-center gap-1">
         <h1 id="header-title">
           Universidad Tecnológica de la Huasteca Hidalguense
         </h1>

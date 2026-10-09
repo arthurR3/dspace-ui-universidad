@@ -1,28 +1,56 @@
-<div class="background-image-container mt-ncs">
-  <div class="home-news-content py-4 px-2 py-sm-5 px-sm-0 mt-0 mb-4">
-  <div class="container">
-    <div class="home-news-content py-4 px-2 py-sm-5 px-sm-0 mt-0 mb-4">
-      <div class="d-flex flex-wrap">
-        <div class="banner-text-home">
-          <h1 class="display-2 home-font-lemon">Repositorio Institucional</h1>
-          <p><!-- <i class="fas fa-circle-info"></i> --> Accedea documentos académicos, tesis, artículos y más recursos </p>
-          <p>digitales desde cualquier lugar</p>
-        </div>
-      </div>
-      <div class="d-flex flex-wrap">
-        <div class="">
-          <ds-themed-search-form></ds-themed-search-form>
-        </div>
-        </div>
-    </div>
-  </div>
-  <picture class="background-image">
-    <source type="image/webp"
-      srcset="assets/dspace-uthh/images/banner-uthh.png 2000w, assets/dspace/images/banner-half.webp 1200w, assets/dspace/images/banner-tall.webp 768w">
-    <source type="image/jpg"
-      srcset="assets/dspace-uthh/images/banner-uthh.png 2000w, assets/dspace/images/banner-half.jpg 1200w, assets/dspace/images/banner-tall.jpg 768w">
-    <img alt=""
-      [src]="'assets/dspace-uthh/images/banner-uthh.png'" />
+<div class="background-image-container position-relative min-vh-100">
+  <picture class="background-image position-absolute top-0 start-0 w-100 h-100">
+    <source
+      type="image/webp"
+      srcset="
+        assets/dspace-uthh/images/banner-uthh.png 2000w,
+        assets/dspace-uthh/images/banner-uthh.png 1200w,
+        assets/dspace-uthh/images/banner-uthh.png 768w">
+
+    <source
+      type="image/jpg"
+      srcset="
+        assets/dspace-uthh/images/banner-uthh.png 2000w,
+        assets/dspace-uthh/images/banner-uthh.png 1200w,
+        assets/dspace-uthh/images/banner-uthh.png 768w">
+
+    <img
+      class="w-100 h-100 object-fit-cover"
+      src="assets/dspace-uthh/images/banner-uthh.png"
+      alt="">
   </picture>
-  <small class="credits">Photo by <a href="https://www.pexels.com/@inspiredimages">&#64;inspiredimages</a></small>
+  <div class="position-relative min-vh-100 d-flex align-items-center justify-content-center">
+    <div class="container">
+      <div class="row justify-content-center text-center">
+        <div class="col-12 col-lg-10">
+          <h1 class="home-font-lemon mb-3">
+            Repositorio Institucional
+          </h1>
+          <h3 class="mb-1">
+            Accede a documentos académicos, tesis, artículos y más recursos
+          </h3>
+          <h3 class="mb-4">
+            digitales desde cualquier lugar
+          </h3>
+          <div class="d-flex justify-content-center">
+            <ds-themed-search-form></ds-themed-search-form>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <!-- Créditos -->
+  <small class="credits position-absolute bottom-0 end-0 p-2">
+    Photo by
+    <a href="https://www.pexels.com/@inspiredimages">
+      &#64;inspiredimages
+    </a>
+  </small>
+
 </div>
